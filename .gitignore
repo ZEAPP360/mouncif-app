@@ -21,3 +21,14 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+
+/*
+# exception to the rule
+!/app
+!/models
+!/database
+!/config
+!/routes
+!/resources
+!composer.json
