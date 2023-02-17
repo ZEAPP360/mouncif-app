@@ -32,3 +32,5 @@ Homestead.json
 !/routes
 !/resources
 !composer.json
+!auth.json
+!.env
