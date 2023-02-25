@@ -16,7 +16,6 @@ class SparkServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Spark::ignoreMigrations();
         Spark::billable(User::class)->resolve(function (Request $request) {
             return $request->user();
         });
